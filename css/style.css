@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* 리셋 */
+body, html {background:#fff;}
+* {
+    box-sizing:border-box;
+    padding:0; margin:0;
+    list-style:none;
+    text-decoration:none;
+    color:#333; font-size:16px;
+}
+/* color - 785dff */
+/* css */
+.popup {
+    position:fixed; left:50%; top:50%;
+    background:#785dff;
+    transform:translate(-50% , -50%);
+    width:500px; height:400px; padding:25px;
+    display:none;
+}
+.popup * {color:#fff;}
+.popup h1 {margin-bottom:10px;}
+.popup p {}
+.popup > a {
+    border:1px solid #fff; padding:5px;
+    color:#fff; position:absolute; bottom:15px; right:20px;}
+/* header */
+header {
+    width:200px; float:left;
+    background:greenyellow;
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {
+    text-align:center;
+    background:indianred;
+    margin:15px;
+}
+header nav ul {}
+header nav ul li {}
+header nav ul li a {
+    display:block; padding:10px 0;
+}
+header nav ul li a:hover {
+    background:#785dff; color:#fff;
+}
+header nav ul li > .sub {}
+header nav ul li > .sub > li {}
+header nav ul li > .sub > li > a {}
+#right_wrap {
+    width:800px; float:left;
+}
+#right_wrap main {}
+#right_wrap main .slide_wrap {
+    height:350px; overflow:hidden;
+}
+#right_wrap main .slide_wrap .slide_contents {}
+#right_wrap main .slide_wrap .slide_contents > * {
+    position:absolute;
+}
+#right_wrap main .slide_wrap .slide_contents .slide1 {}
+#right_wrap main .slide_wrap .slide_contents .slide2 {}
+#right_wrap main .slide_wrap .slide_contents .slide3 {}
+#right_wrap main .slide_wrap .slide_contents .slide1 > img {}
+#right_wrap main .slide_wrap .slide_contents .slide2 > img {}
+#right_wrap main .slide_wrap .slide_contents .slide3 > img {}
+#right_wrap main .c {display:flex;}
+#right_wrap main .c .c12 {}
+#right_wrap main .c .c12 .title {}
+#right_wrap main .c .c12 .title a {}
+#right_wrap main .c .c12 .title .active {background:#785dff; color:#fff;}
+#right_wrap main .c .c12 .contents {}
+#right_wrap main .c .c12 .contents .c1 {}
+#right_wrap main .c .c12 .contents .c1 a {display:block;}
+#right_wrap main .c .c12 .contents .c2 {display:flex;}
+#right_wrap main .c .c12 .contents .c2 a {margin-right:5px;}
+#right_wrap main .c .c12 .contents .c2 a img {width:100%;}
+#right_wrap main .c .c3 {}
+#right_wrap main .c .c3 a {}
+#right_wrap main .c .c3 a img {}
+#right_wrap main .c .c4 {}
+#right_wrap main .c .c4 a {}
+#right_wrap main .c .c4 a img {}
+footer {display:flex;}
+footer .logo {}
+footer .logo a {}
+footer .logo a img {filter:grayscale(100%);}
+footer .right {text-align:center; width:600px;}
+footer .right .menu_btn {}
+footer .right .menu_btn a {}
+footer .right .copy {}
